@@ -53,6 +53,6 @@ module.exports = function koaBetterBody (options) {
       options.onerror(err, ctx)
     }
 
-    next();
+    await next();
   }
 }
